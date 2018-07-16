@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">navigation_sample</string>
+    <string name="fb_app_id">287403328498367</string>
+    <string name="ak_client_token">c15ac42c2c2d5bbf40fecf05c51238aa</string>
 </resources>
