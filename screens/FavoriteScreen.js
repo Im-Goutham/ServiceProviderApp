@@ -16,7 +16,11 @@ class FavoriteScreen extends Component {
     }
 
     getEvents = () => {
-        console.log(RNCalendarEvents.saveEvent('Calender Test', {id: 'FE6B128F-C0D8-4FB8-8FC6-D1D6BA015CDE'}));
+        console.log('came here...')
+        RNCalendarEvents.saveEvent('My personal event', {
+            startDate: '2016-08-19T19:26:00.000Z',
+            endDate: '2017-08-19T19:26:00.000Z'
+          }) 
     }
 
     render() {
