@@ -4,7 +4,6 @@ import android.app.Application;
 
 import com.facebook.react.ReactApplication;
 import com.oblador.vectoricons.VectorIconsPackage;
-import org.devio.rn.splashscreen.SplashScreenReactPackage;
 import io.underscope.react.fbak.RNAccountKitPackage;
 import com.lugg.ReactNativeConfig.ReactNativeConfigPackage;
 import com.calendarevents.CalendarEventsPackage;
@@ -29,7 +28,6 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
             new VectorIconsPackage(),
-            new SplashScreenReactPackage(),
             new RNAccountKitPackage(),
             new ReactNativeConfigPackage(),
             new CalendarEventsPackage()
