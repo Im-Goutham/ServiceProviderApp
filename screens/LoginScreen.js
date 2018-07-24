@@ -63,7 +63,6 @@ class LoginScreen extends Component {
                   placeholder='User Name'
                   value={this.state.username}
                   autoCapitalize='none'
-                  autoFocus={true}
                   onSubmitEditing={() => {
                     this.focusNextField('password');
                   }}
