@@ -30,7 +30,6 @@ public class MainApplication extends Application implements ReactApplication {
           new MainReactPackage(),
             new RNI18nPackage(),
             new VectorIconsPackage(),
-            new RNAccountKitPackage(),
             new ReactNativeConfigPackage(),
             new CalendarEventsPackage()
       );

@@ -67,18 +67,5 @@
 		<string>Feather.ttf</string>
 		<string>MaterialCommunityIcons.ttf</string>
 	</array>
-	<key>FacebookAppID</key>
-	<string>287403328498367</string>
-	<key>AccountKitClientToken</key>
-	<string>c15ac42c2c2d5bbf40fecf05c51238aa</string>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>ak{your-app-id}</string>
-			</array>
-		</dict>
-	</array>
 </dict>
 </plist>
